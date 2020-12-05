@@ -137,7 +137,7 @@ int main()
                 else if (selection == 1)
                 {
                     int opd_patient = popPatient(&opd_queue->next);
-                    printf("Patient attending emergency. ID: %i \n", opd_patient);
+                    printf("Doctor attending opd. ID: %d \n", opd_patient);
                     opd_counter++;
                 }
                 if (count(emergency_queue) < 10)

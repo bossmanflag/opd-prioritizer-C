@@ -21,16 +21,6 @@ int count(patient_t *head)
     }
     return i;
 }
-void printList(patient_t *head)
-{
-
-    patient_t *present = head->next;
-    while (present->next != NULL)
-    {
-        printf("Plane id : %d \n", present->id);
-        present = present->next;
-    }
-}
 
 void pushPatient(patient_t *head, int value)
 {
